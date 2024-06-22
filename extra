@@ -48,3 +48,47 @@ tech stack
 hobbies
 google map
 socail link
+
+inline > style tag > stylesheet
+
+inline
+{
+  color:red;
+  font-size:30px;
+  width:50%
+}
+
+styletag
+{
+  color:orange;
+  background:green;
+  height:60px
+}
+
+stylesheet{
+  font-size:70px;
+  height:90px
+  border:1px
+}
+
+{
+  color:red;
+  font-size:30px;
+  width:50%;
+  background:green;
+  height:60px;
+  border:1px
+}
+
+//////
+tagname
+> Any tag you can target
+> h1, p 
+
+className
+> .
+> to target multiple element for same property
+
+id
+> #
+> to target something unique
