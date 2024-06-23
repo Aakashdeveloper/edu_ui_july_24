@@ -1,0 +1,53 @@
+h1{
+    text-align:center  
+}
+.card{
+    height:400px;
+    background-color:#e09561;
+    width:20%;
+    float:left;
+    margin:2%;
+    overflow: scroll;  
+
+}
+
+.card > img {
+    height:200px;
+    width:100%
+}
+
+.blue{
+    background-color:#88cbe6
+}
+
+#brown{
+    background-color:#bfae9a
+}
+
+.myColor{
+    background-color:#71c2eb
+}
+
+#flatCard{
+    width:80%;
+    margin-left: 10%;
+    height:250px;
+    background-color: gray;
+    display: flex;
+    color:white
+}
+
+.imgDiv{
+    height:100%;
+    width:30%;
+    margin: 2%;
+}
+.textDiv{
+    width:65%;
+    
+}
+
+
+#maindiv{
+    display: inline-block;
+}

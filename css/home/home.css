@@ -1,0 +1,130 @@
+body{
+    margin: auto;
+}
+header{
+    height:60px;
+    /* border:5px solid green; */
+    background-color: #3c2632;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#brand{
+    font-size: 30px;
+    color:white;
+    margin-left:10px;
+   
+}
+
+#social{
+    display: flex;
+    gap:10px;
+    margin-right: 5px;
+}
+
+.slogo{
+    width:50px
+}
+
+/* Search */
+#search{
+    height:450px;
+    /* border:10px groove gray; */
+    background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size:100% 450px ; */
+}
+
+#logo{
+    height:150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 44%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#logo > span{
+    margin-left: 19%;
+    margin-top: 14%;
+    position: absolute;
+}
+
+#heading{
+    font-size: 60px;
+    margin-left: 29%;
+    margin-top: 14%;
+    position: absolute;
+    color:white
+}
+
+.dropdown{
+    margin-left: 26%;
+    margin-top: 22%;
+    position: absolute;
+    height: 60px;
+    width: 50%;
+    /* border:2px solid white */
+}
+select{
+    height:60px;
+    width:40%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#restSelect{
+    width: 59%;
+}
+
+/* quickSearch */
+#quickSearch{
+    /* height: 600px; */
+    /* border: 5px double orange; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    display: block;
+    font-size: 30px;
+    color: #3c2632;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+}
+
+.quickSubHeading{
+    line-height: 2;
+    font-size: 20px;
+    color:gray;
+    margin-left: 2%;
+
+}
+
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tileComponent{
+    height:180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 5px solid red;
+}
+
+
+/* Footer */
+footer{
+    height: 80px;
+    border:5px dotted hotpink
+}
