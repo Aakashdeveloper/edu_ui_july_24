@@ -1,6 +1,9 @@
 body{
     margin: auto;
 }
+a{
+    text-decoration: none;
+}
 header{
     height:60px;
     /* border:5px solid green; */
@@ -47,6 +50,30 @@ header{
     margin-top: 2%;
     position: absolute;
     font-size: 90px;
+    animation: revolve 10s ;
+}
+
+@keyframes revolve {
+    0%{
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 80%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left: 40%;
+        transform: rotate(360deg);
+    }
 }
 
 #logo > span{
@@ -101,6 +128,10 @@ select{
     margin-left: 2%;
 }
 
+.quickHeading:hover{
+    font-size: 40px;
+}
+
 .quickSubHeading{
     line-height: 2;
     font-size: 20px;
@@ -119,12 +150,144 @@ select{
     width:30%;
     margin-left: 2%;
     margin-top: 2%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
+    display: flex;
+    box-shadow: 10px 20px 7px gray;
+    animation: dance 10s infinite;
 }
 
+@keyframes dance{
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1)
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+
+.tileComponent:hover{
+    transform: scale(1.1);
+    /* transform: skewY(30deg) */
+    /* transform: rotate(180deg) */
+    /* transform: translate(100px, 100px) */
+
+}
+
+.tileComponent1{
+    width: 55%;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height: 100%;
+}
+
+.tileComponent2{
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#3c2632;
+    font-weight: bold;
+}
+
+.tileComponent2 >a {
+    color: gray;
+}
 
 /* Footer */
 footer{
-    height: 80px;
-    border:5px dotted hotpink
+    /* height: 80px; */
+    /* border:5px dotted hotpink; */
+    background-color: #3c2632;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footdiv{
+    width:32%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border: none;
+}
+
+@media screen and (max-width:1600px) {
+    body{
+        background-color: rgb(226, 151, 130);
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color: rgb(226, 208, 130);
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color: rgb(226, 208, 130);
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color: rgb(176, 226, 130);
+    }
+    
+}
+
+@media screen and (max-width:1055px) {
+    body{
+        background-color: rgb(165, 234, 226);
+    }
+    
+}
+
+
+@media screen and (max-width:900px) {
+    body{
+        background-color: rgb(200, 199, 244);
+    }
+
+    .tileComponent{
+        width:45%
+    }
+    
+}
+
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: rgb(233, 191, 237);
+    }
+
+    .tileComponent{
+        width:90%
+    }
+    
 }
