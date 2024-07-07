@@ -291,3 +291,15 @@ ul{
     }
     
 }
+
+
+#coupon{
+    height:350px;
+    width:50%;
+    background-color: #263c3a;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 25%;
+    z-index: 100;
+    visibility: hidden;
+}

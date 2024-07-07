@@ -3,6 +3,7 @@
     <head>
         <title>Zomapp</title>
         <link href="home.css" rel="stylesheet"/>
+        <script src="home.js"></script>
     </head>
     <body>
         <header>
@@ -26,6 +27,10 @@
         </header>
         <!--Search-->
         <div id="search">
+            <div id="coupon">
+
+                <button onclick="closeCoupon()">&times;</button>
+            </div>
             <div id="logo">
                 <span>D!</span>
             </div>
@@ -46,6 +51,7 @@
                     <option>Restaurant2</option>
                 </select>
             </div>
+
         </div>
         <!--Quick Search-->
         <div id="quickSearch">
@@ -133,6 +139,9 @@
                 </ul>
             </div>
         </footer>
+        <script>
+            window.onload=loadCoupon()
+        </script>
     </body>
 
 
