@@ -120,3 +120,16 @@ xxl > 1400px
 
 
 eval
+
+loop
+mapfilter
+clouser
+hoisting
+
+geolocation
+forms
+
+
+
+
+https://api.openweathermap.org/data/2.5/forecast/daily?lat=31.5334185&lon=76.8904886&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
